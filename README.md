@@ -57,22 +57,23 @@ The menuselect/menuselect utility supports several command-line options to facil
 **Examples:**
 1. Enable the option `example_option`:
    ```
-   menuselect --enable app_macro
+   menuselect/menuselect --enable app_macro
    ```
 
-2. Disable the option `example_option`:
+2. Disable the option `check_expr` `check_expr2` and `ast_expr2`:
    ```
-   menuselect --disable app_macro
+   menuselect/menuselect --disable check_expr check_expr2 ast_expr2
+
    ```
 
 3. Enable all options within the category `MENUSELECT_APPS`:
    ```
-   menuselect --enable-category MENUSELECT_APPS
+   menuselect/menuselect --enable-category MENUSELECT_APPS
    ```
 
 4. Enable all options:
    ```
-   menuselect --enable-all
+   menuselect/menuselect --enable-all
    ```
 
 5. List all available options:
