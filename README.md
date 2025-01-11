@@ -1,5 +1,3 @@
-# asterisk-pbx-menuselect-automation
-
 # Asterisk PBX Make MenuSelect programmatically
 
 **Overview:**
